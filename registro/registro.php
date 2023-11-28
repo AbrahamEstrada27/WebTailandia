@@ -137,12 +137,12 @@
                     <label class="text-right fs-5">Talla</label>
                     <div class="input-group mb-3">
                       <select class="form-select" id="inputGroupSelectTalla" name="talla" required>
-                        <option value="ninguna" disabled selected>Opciones...</option>
-                        <option value="xs">XS</option>
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
+                        <option value="NINGUNA" disabled selected>Opciones...</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
                       </select>
                       <div class="invalid-feedback">
                         Por favor, selecciona una opción.

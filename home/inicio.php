@@ -54,7 +54,7 @@ if ($registrado == "correcto") {
                 <!-- Enlaces a otras secciones -->
                 <a class="navbar-brand text-light fs-4 me-5 ms-5" href="../comida/comida.html">Comida</a>
                 <a class="navbar-brand text-light fs-4 me-5 ms-5" href="../historia/historia.html">Historia</a>
-                <a class="navbar-brand text-light fs-2 me-5 ms-5" href="../clima/clima.html">Clima</a>
+                <a class="navbar-brand text-light fs-4 me-5 ms-5" href="../clima/clima.html">Clima</a>
                 <a class="navbar-brand text-light fs-4 me-5 ms-5" href="../destinos/destinos.html">Destinos</a>
                 <a class="navbar-brand text-light fs-4 me-5 ms-5" href="../contacto/contacto.html">Contacto</a>
             </div>

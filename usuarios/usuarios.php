@@ -50,7 +50,7 @@ $resultado = mysqli_query($conexion, $sql);
     <!-- Left links -->
     <ul class="navbar-nav">
       <li class="nav-item text-start">
-        <a class="nav-link active text-light fs-2 ms-1" aria-current="page" href="#">Tailandia</a>
+        <a class="nav-link active text-light fs-2 ms-1" aria-current="page" href="../home/inicio.php">Tailandia</a>
       </li>
     </ul>
 
@@ -124,7 +124,7 @@ $resultado = mysqli_query($conexion, $sql);
   <?php
   $num = 0;
   while ($fila = $resultado->fetch_assoc()) {
-    if ($num % 5 == 0) {
+    if ($num % 4 == 0) {
       // Inicia una nueva fila
       echo "<tr>";
     }
@@ -144,13 +144,13 @@ $resultado = mysqli_query($conexion, $sql);
     </th>
     <?php
     $num++;
-    if ($num % 5 == 0) {
+    if ($num % 4 == 0) {
       // Cierra la fila después de mostrar 5 tarjetas
       echo "</tr>";
     }
   }
   // Cierra la fila si el número total de tarjetas es múltiplo de 5
-  if ($num % 5 != 0) {
+  if ($num % 4 != 0) {
     echo "</tr>";
   }
   ?>
